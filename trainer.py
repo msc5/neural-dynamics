@@ -88,8 +88,8 @@ if __name__ == "__main__":
     batch_size = 256
     eps = 1e-5
 
-    # A = torch.tensor([[0.5, -1], [1, -1]], device=device)
-    A = torch.tensor([[4, -2], [3, -3]], device=device)
+    A = torch.tensor([[0.5, -1], [1, -1]], device=device)
+    # A = torch.tensor([[4, -2], [3, -3]], device=device)
     # A = torch.tensor([[4, 2], [1, 3]], device=device)
 
     model = DynamicsModel(len(A), device=device)
